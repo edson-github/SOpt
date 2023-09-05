@@ -1,6 +1,6 @@
 while True:
     continuar = input("Deseja continuar? ")
-    if continuar != 'S' and continuar != 's':
+    if continuar not in ['S', 's']:
         break
 print("Encerrou")
 

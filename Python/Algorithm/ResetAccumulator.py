@@ -1,10 +1,7 @@
 def add_divisors(list_num):
     final_list = []
     for number in list_num:
-        divisors = []
-        for x in range(1, number + 1):
-            if number % x == 0:
-                divisors.append(x)
+        divisors = [x for x in range(1, number + 1) if number % x == 0]
         final_list.append(divisors)
     return final_list
 

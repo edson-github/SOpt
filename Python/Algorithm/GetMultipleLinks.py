@@ -5,7 +5,7 @@ texto = ""
 while (i < int(c)):
     dw = input("Link de Download:")
     texto = texto + dw + "  "
-    i = i + 1
+    i += 1
     print()
 print(texto)
 

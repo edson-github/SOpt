@@ -1,13 +1,12 @@
 p = i = 0
-while (True):
+while True:
     n = int(input("Digite um número, ou zero para terminar: "))
     if n == 0:
         break;
+    if n % 2 == 0:
+        p = p + 1
     else:
-        if n % 2 == 0:
-            p = p + 1
-        else:
-            i = i + 1
+        i = i + 1
 print ("P = ", p)
 print ("I = ", i)
 

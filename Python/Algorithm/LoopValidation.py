@@ -1,12 +1,22 @@
 import random
 
 ConvInicial = str(input('Você: '))
-if ConvInicial == 'Não estou passando bem' or ConvInicial == 'Estou com dor' or ConvInicial == 'Preciso de ajuda':
+if ConvInicial in {
+    'Não estou passando bem',
+    'Estou com dor',
+    'Preciso de ajuda',
+}:
     while True:
         print('O que você está sentindo?')
         RespDor = input('Você: ')
-        if RespDor == 'Estou com dor de cabeça' or RespDor == 'Dor de cabeça' or RespDor == 'Minha cabeça dói':
-            print('Você pode usar um {} para aliviar sua dor!'.format(random.choice(['Neosaldina', 'Dorflex', 'Advil', 'Tylenol', 'Aspirina', 'Naldecon'])))
+        if RespDor in [
+            'Estou com dor de cabeça',
+            'Dor de cabeça',
+            'Minha cabeça dói',
+        ]:
+            print(
+                f"Você pode usar um {random.choice(['Neosaldina', 'Dorflex', 'Advil', 'Tylenol', 'Aspirina', 'Naldecon'])} para aliviar sua dor!"
+            )
             break; #para encerrar o laço de repetição
         else:
             print('Não entendi, poderia ser mais claro?')

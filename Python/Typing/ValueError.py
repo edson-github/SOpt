@@ -1,6 +1,6 @@
 try:
     a = int(input("insira um número :"))
-    print ("seu número foi :" + str(a))
+    print(f"seu número foi :{a}")
 except:
 	print ("isto não é um numero inteiro")
 

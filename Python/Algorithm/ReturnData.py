@@ -24,11 +24,10 @@ def rodadas(n, m):
 def partida():
     n = int(input("Quantas peças?"))
     m = int(input("Limite de peças por jogada?"))
-    if n // (m + 1) == 0:
-        print("Você começa")
-        return 1
-    else:
+    if n // (m + 1) != 0:
         return 2
+    print("Você começa")
+    return 1
 
 rodadas(n, m)
 

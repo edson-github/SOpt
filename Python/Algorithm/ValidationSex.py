@@ -1,7 +1,7 @@
 def getSex():
     while True:
         sex = input('Digite seu sexo:')
-        if sex == 'M' or sex == 'F':
+        if sex in ['M', 'F']:
             return sex
 
 print(getSex())

@@ -3,7 +3,7 @@ while True:
     numeros.append(int(input('Digite um número: ')))
     while True:
         condicao = str(input('Deseja continuar? SIM ou NÃO? ')).upper()
-        if condicao == 'SIM' or condicao == 'NAO': break
+        if condicao in {'SIM', 'NAO'}: break
         print('Essa opção não existe. Tente de novo.')
     if condicao == 'NAO': break
 numeros.sort()

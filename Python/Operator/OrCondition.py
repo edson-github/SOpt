@@ -1,7 +1,7 @@
 letra = input("Qual seu gênero:")
-if letra == "F" or letra == "f":
+if letra in ["F", "f"]:
     print("Feminino")
-elif letra == "M" or letra == "m":
+elif letra in ["M", "m"]:
     print("Masculino")
 else:
     ("sexo invalido")

@@ -1,7 +1,7 @@
 a = int(input('digite um número:'))
 b = int(input('digite outro número:'))
 c = (input("escolha a operação que deseja: / para dividir, * para multiplicar - para subtrair e + para somar: "))
-while c != "/" and c != "*" and c != "-" and c != "+":
+while c not in ["/", "*", "-", "+"]:
     c = (input("digite um operador válido"))
 if c == "/":
     print (a / b)

@@ -1,9 +1,5 @@
 def nomes(x):
-    nome = []
-    for i in x:
-        if len(i) == 4:
-            nome.append(i)
-    return nome
+    return [i for i in x if len(i) == 4]
     
 print(nomes(["abc", "jose", "ana", "maria", "joao", "abcd"]))
 

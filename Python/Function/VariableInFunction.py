@@ -1,8 +1,6 @@
 def Luggage():
-    mala = []
     take = input("O que você deseja levar na sua viagem?")
-    mala.append(take)
-    return mala
+    return [take]
 
 x = Luggage()
 print(x)

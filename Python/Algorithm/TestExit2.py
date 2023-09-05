@@ -8,6 +8,8 @@ while True:
     if tent == pc:
         break
     print('Você errou! Tente novamente '.format(pc))
-print('Parabens!Você acertou! o Número que o computador escolheu foi {} em {} tentativas.'.format(pc, contador))
+print(
+    f'Parabens!Você acertou! o Número que o computador escolheu foi {pc} em {contador} tentativas.'
+)
 
 #https://pt.stackoverflow.com/q/435391/101
