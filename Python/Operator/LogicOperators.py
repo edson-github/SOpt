@@ -1,5 +1,5 @@
 sexo = input("digite m ou f: ")
-while sexo != 'f' and sexo != 'm':
+while sexo not in ['f', 'm']:
      sexo = input("digite m ou f: ")
 print(sexo)
 

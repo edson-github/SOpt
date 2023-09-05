@@ -3,7 +3,7 @@ class People:
     def __init__(self, nome):
         self.nome = nome
     def talk(self):
-         print('Meu nome é ' + self.nome)
+        print(f'Meu nome é {self.nome}')
 
 p1 = People("joão")
 p1.talk()

@@ -1,8 +1,6 @@
 def ler_dados():
     with open('CTE_ARBA.txt', 'r') as arq:
-        dados = arq.readlines()
-        for linha in dados:
-            yield linha
+        yield from arq.readlines()
 
 for linha in ler_dados():
     print(linha)

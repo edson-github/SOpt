@@ -18,8 +18,7 @@ class Cliente:
         self.Cidade   = D.pop('cid','--')
         self.UF       = D.pop('uf','--')
         self.cheques  = []
-        for x in listaCheque:
-            self.cheques.append(x)
+        self.cheques.extend(iter(listaCheque))
         self.tipo     = D.pop('tipo', '--')
     def listaCheque(self):
         return self.cheques

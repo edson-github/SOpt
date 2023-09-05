@@ -8,10 +8,8 @@ while qnt <= qntd_alunos-1:
     media_geral += media_semestral
     if media_semestral >= 7:
         print("Você foi aprovado")
-        print("Sua média semestral é: ", media_semestral)
-    else:
-        print("Sua média semestral é: ", media_semestral)
-    qnt = qnt+1
+    print("Sua média semestral é: ", media_semestral)
+    qnt += 1
     if qnt == 1:
         print(qnt, "aluno já recebeu sua média, faltam", qntd_alunos - qnt)
 

@@ -1,17 +1,10 @@
 print('3 numeros')
-data = []
-i = 0
-while i < 3:
-    data.append(input())
-    i += 1
+data = [input() for _ in range(3)]
 numbers = list(map(int, data))
 print(numbers)
 
 print('3 numeros')
-data = []
-for i in range(3):
-    data.append(input())
-
+data = [input() for _ in range(3)]
 numbers = list(map(int, data))
 print(numbers)
 

@@ -6,7 +6,7 @@ def main():
     while numero != 0:
         if (numero % 10 == digito):
             ocorrencia += 1
-        numero = numero // 10
+        numero //= 10
     print("O dígito ", digito, "ocorre", ocorrencia, "vezes no número", numeroReal)
 main()
 

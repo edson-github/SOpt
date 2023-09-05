@@ -1,6 +1,6 @@
 dic = {}
-n = int(input()) 
-for i in range(n):
+n = int(input())
+for _ in range(n):
     palavra, adjetivo = input().split()
     dic[palavra] = adjetivo
 frase = input().split()

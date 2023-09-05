@@ -1,7 +1,6 @@
 def a():
   i = 0
-  j = b(i)
-  return j
+  return b(i)
 
 def b(z):
   k = 5

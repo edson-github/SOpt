@@ -1,5 +1,4 @@
 x = 0
-c = 0
 while x < 4:
     login = input("Digite o login: ")
     senha = int(input("Digite a senha: "))
@@ -17,7 +16,7 @@ print("    0     |   Sair")
 print()
 p = input("Digite o código do produto: ")
 q = int(input("Digite a quantidade: "))
-c += 1 
+c = 0 + 1
 if p == 100:
     print("Valor: ", 2.30 + c)
     

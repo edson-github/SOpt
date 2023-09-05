@@ -5,7 +5,7 @@ while True:
     tent = int(input('PALPITE:'))
     if tent == pc:
     	break
-    print('Você errou! o numero que o pc escoheu foi {}. Tente novamente '.format(pc))
-print('Parabens!Você acertou! o Número que o o computador escolheu foi {}.'.format(pc))
+    print(f'Você errou! o numero que o pc escoheu foi {pc}. Tente novamente ')
+print(f'Parabens!Você acertou! o Número que o o computador escolheu foi {pc}.')
 
 #https://pt.stackoverflow.com/q/435391/101

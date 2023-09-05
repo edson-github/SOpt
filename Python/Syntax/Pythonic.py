@@ -1,8 +1,5 @@
 mylist = [1, 2, 3, 4]
-newlist = []
-for i in mylist:
-    newlist.append(i * 2)
-
+newlist = [i * 2 for i in mylist]
 mylist = [1, 2, 3, 4]
 newlist = [(i * 2) for i in mylist]
 

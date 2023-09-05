@@ -8,8 +8,8 @@ glossario = {
     'string': 'String é um objeto iterável.',
     }
 for palavra, significado in set(glossario.items()):
-    print(palavra.title() + ":" + "\n" + significado + '\n')
-    
+    print(f"{palavra.title()}:" + "\n" + significado + '\n')
+
 glossario['sequência'] = 'Sequências são coleções ordenadas embutidas:' \
     'strings, listas, tuplas e buffers.'
     

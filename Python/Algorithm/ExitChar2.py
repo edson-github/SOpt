@@ -6,7 +6,7 @@ while True:
     add = input('Quer adicionar mais fruta? ')
     if add == 'não':
         break
-    if add != 'sim' and add != 'não':
+    if add != 'sim':
         add = print('Por favor digite sim ou não: ')
 print(frutas)
 

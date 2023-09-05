@@ -1,8 +1,8 @@
 prefixes = "JKLMNOPQ"
 for letter in prefixes:
-    if letter[0] == "Q" or letter[0] == "O":
-        print(letter + "uack")
+    if letter[0] in ["Q", "O"]:
+        print(f"{letter}uack")
     else:
-        print(letter + "ack")
+        print(f"{letter}ack")
         
 #https://pt.stackoverflow.com/q/305011/101

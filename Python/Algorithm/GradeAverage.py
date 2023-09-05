@@ -10,6 +10,8 @@ for bimestre in range(1, 5):
     media = (nota1 + nota2 + nota3 + nota4) / 4
     final += media
     print(f'Olá {nome} sua média no {bimestre}o. bimestre é {media}')
-print(f'Olá {nome} sua média final é {final / 4} e você está {"aprovador" if final / 4 >= 5 else "reprovado"}')
+print(
+    f'Olá {nome} sua média final é {final / 4} e você está {"aprovador" if final >= 20 else "reprovado"}'
+)
 
 #https://pt.stackoverflow.com/q/573063/101

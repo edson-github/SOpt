@@ -1,8 +1,5 @@
 frase = input("Escreva uma frase: ")
-fraseNova = ""
-for chr in frase:
-	if chr != " ":
-	    fraseNova += chr.upper()
+fraseNova = "".join(chr.upper() for chr in frase if chr != " ")
 print(fraseNova)
 
 #https://pt.stackoverflow.com/q/340130/101

@@ -1,16 +1,11 @@
 def soma(a, b):
     x = a + b
     y = 'qualquer coisa'
-    if x > 5:
-        return x
-    else:
-        return y
+    return x if x > 5 else y
 
 def soma(a, b):
-    x = a + b
-    y = 'qualquer coisa'
-    yield x
-    yield y
+    yield a + b
+    yield 'qualquer coisa'
 
 def soma(a, b):
     x = a + b

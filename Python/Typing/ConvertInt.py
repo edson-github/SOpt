@@ -2,10 +2,7 @@ a = "11001100"
 b = "01101100"
 
 def p_and(a,b):
-  aux=[]
-  for i in range(8):
-    aux.append(int(a[i]) and int(b[i]))
-  return aux
+  return [(int(a[i]) and int(b[i])) for i in range(8)]
 
 print (p_and(a,b))
 
